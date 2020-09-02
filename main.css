@@ -270,6 +270,19 @@ section {
     letter-spacing: 1px;
 }
 
+.cors-info-relative {
+    position: relative;
+}
+
+.cors-info {
+    position: absolute;
+    bottom: 23px;
+    left: -15px;
+    font-size: 14px;
+    font-weight: 100;
+    min-width: 285px;
+}
+
 
 @media (orientation: landscape) {
     .landing-page-intro {

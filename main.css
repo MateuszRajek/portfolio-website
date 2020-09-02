@@ -13,7 +13,7 @@ font-family: 'Source Sans Pro', sans-serif;
     --dark-navy: #17252a;
     --dark-sea: #2b7278;
     --sea: #3aafa9;
-    --light-sea: #def2f1;
+    --light-sea: rgb(222, 242, 241);
     --white: #feffff;
 }
 
@@ -195,8 +195,16 @@ section {
 }
 
 .glide__arrow {
-    color: var(--sea);
-    border-color: var(--sea);
+    color: var(--dark-navy);
+    border-color: var(--dark-navy);
+}
+
+.glide__arrow--right {
+    right: 0em;
+}
+
+.glide__arrow--left {
+    left: 0em;
 }
 
 .frontend-portfolio,
@@ -298,6 +306,13 @@ section {
         width: 100%;
     }
 
+    .glide__arrow--right {
+        right: 2em;
+    }
+
+    .glide__arrow--left {
+        left: 2em;
+    }
 }
 
 @media (min-width: 1024px) {
